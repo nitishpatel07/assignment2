@@ -12,7 +12,7 @@ const KnightPositions = ({
 
   let positionx = horizontalAxis.indexOf(currentPos[0]);
   let positiony = verticalAxis.indexOf(currentPos[1]);
-  console.log(positionx, positiony);
+  // console.log(positionx, positiony);
 
   let positions: any;
   positions = [];
@@ -75,7 +75,7 @@ const KnightPositions = ({
   map.forEach(function (value: number, key: any) {
     finalArr.push([key, value]);
   });
-  console.log(finalArr);
+  // console.log(finalArr);
   return (
     <div className="h-[520px] w-[520px] cursor-pointer grid grid-rows-8 grid-cols-8 ">
       {positionx !== -1 &&
