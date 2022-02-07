@@ -1,6 +1,6 @@
-# App Link- [https://assignment-2-chess.netlify.app/](https://assignment-2-chess.netlify.app/).
+## App Link- [https://assignment-2-chess.netlify.app/](https://assignment-2-chess.netlify.app/).
 
-### Steps
+### Steps:
 
 Step 1- when you hove over the board a `blue box` is displayed with the position
 
