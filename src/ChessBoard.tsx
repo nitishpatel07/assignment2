@@ -28,14 +28,17 @@ const ChessBoard = () => {
   let [clicked, setClicked] = React.useState("");
   let [showPermanent, setShowPermanant] = React.useState(0);
 
-  function click(value: any, idx: number) {
+  const click = (value: any, idx: number) => {
     setClicked(value[0]);
     setShowPermanant(idx);
-  }
-  React.useEffect(() => {
-    setClicked(clicked);
-    setShowPermanant(showPermanent);
-  }, [clicked]);
+  };
+  // React.useEffect(() => {
+  //   setClicked(clicked);
+  // }, [clicked]);
+
+  // React.useEffect(() => {
+  //   setShowPermanant(showPermanent);
+  // }, [showPermanent]);
 
   return (
     <div className="relative  h-[520px] w-[520px] cursor-pointer grid grid-rows-8 grid-cols-8 ">
